@@ -23,4 +23,8 @@ while True:
             ganhou = False
 
     if chances == 0 or ganhou:
-        break
+     break
+if ganhou:
+    print(f"Parabéns, você ganhou. A palavra era: {palavra}")
+else:
+    print(f"Você perdeu!! A palavra era: {palavra}")
